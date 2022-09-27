@@ -8,5 +8,5 @@ public class User
     public string Name { get; set; }
     [StringLength(100), Required]
     public string Email { get; set; }
-    public 
+    public IList<WorkItem> WorkItems { get; set; }
 }
